@@ -1,2 +1,5 @@
-import test from './test.js';
-test.hello();
+import te from './te.js';
+te.hello();
+
+const common = require('./common.js')
+common.hello()
