@@ -2,16 +2,34 @@
   "name": "arendusprotsessid",
   "version": "1.0.0",
   "description": "[npm](npmjs.com)\r Package manager for the JavaScript programming language. Comes with nodejs.",
-  "main": "index.js",
+  "main": "script.js",
+  "type": "module",
   "scripts": {
     "dev": "npx webpack --mode development",
+    "start": "webpack serve --mode development",
     "build": "npx webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/MToome/Arendusprotsessid"
   },
   "keywords": [],
   "author": "Marek Toome",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "purgecss-webpack-plugin": "^7.0.2",
+    "sass": "^1.85.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
     "webpack": "^5.98.0",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
   }
 }

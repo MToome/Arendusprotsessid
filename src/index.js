@@ -1,5 +1,3 @@
-import te from './te.js';
-te.hello();
+import './style.scss';
 
-const common = require('./common.js')
-common.hello()
+import * as bootstrap from 'bootstrap';
